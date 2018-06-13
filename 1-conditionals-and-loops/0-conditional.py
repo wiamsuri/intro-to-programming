@@ -9,14 +9,14 @@ c_score = 70
 d_score = 60
 
 
-# Wite a statement that will print out the correct condition
+# Write a statement that will print out the correct condition
 if # Write the condition here
     print('Got A in English')
 else:
     print('Did not get A in English')
 
 
-# Wite a statement that will print out the correct condition
+# Write a statement that will print out the correct condition
 if # Write the condition here
     print('Thai score is higher than english')
 else:
