@@ -23,3 +23,5 @@ def e():
     # hint: Sum of 1/n! from 0 to infinity
     # Code goes here
     return 2.7
+
+print(e())
