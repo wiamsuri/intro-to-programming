@@ -5,8 +5,9 @@ def factorial(num):
     # Code goes here
     return num
 
-print(factorial(4))
-print(factorial(8))
+print('0! equals 1     Result: {}'.format(factorial(0)))
+print('4! equals 24    Result: {}'.format(factorial(4)))
+print('8! equals 40320 Result: {}'.format(factorial(8)))
 
 
 input_word_list = ['lorem', 'ipsum', 'dolor', 'sit', 'amet', 'consectetur', 'adipiscing', 'elit']
@@ -15,7 +16,7 @@ def find_longest_word(word_list):
     # Code goes here
     return word_list[0]
 
-print(find_longest_word(input_word_list))
+print('Expected result "consectetur". Result: "{}"'.format(find_longest_word(input_word_list)))
 
 
 def e():
@@ -24,4 +25,4 @@ def e():
     # Code goes here
     return 2.7
 
-print(e())
+print('Expected result 2.71828182846. Result: {}'.format(e()))
