@@ -10,12 +10,12 @@ print('4! equals 24    Result: {}'.format(factorial(4)))
 print('8! equals 40320 Result: {}'.format(factorial(8)))
 
 
-input_word_list = ['lorem', 'ipsum', 'dolor', 'sit', 'amet', 'consectetur', 'adipiscing', 'elit']
 def find_longest_word(word_list):
     # TODO: Find the longest word in the list
     # Code goes here
     return word_list[0]
 
+input_word_list = ['lorem', 'ipsum', 'dolor', 'sit', 'amet', 'consectetur', 'adipiscing', 'elit']
 print('Expected result "consectetur". Result: "{}"'.format(find_longest_word(input_word_list)))
 
 
